@@ -1,0 +1,308 @@
+import { Button, DatePicker, Form, Input, Layout, Modal, Popconfirm, Select, Space, Table } from 'antd'
+import React, { useEffect, useState } from 'react'
+import Sidebar from './Sidebar'
+
+import {
+  MenuFoldOutlined,
+  MenuUnfoldOutlined,
+  PlusOutlined,
+  UploadOutlined,
+  UserOutlined,
+  VideoCameraOutlined,
+} from '@ant-design/icons';
+import type { Project_Detail, TaskInterface, Team_Member } from '../interface/TaskInterface';
+import API from '../api/Api';
+import form from 'antd/es/form';
+
+const { Header, Sider, Content } = Layout;
+
+const TaskComponent = () => {
+  const [tasks, setTasks] = useState<TaskInterface[]>([]);
+  const [form] = Form.useForm();
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [members, setMembers] = useState<Team_Member[]>([]);
+  const [projects, setProjects] = useState<Project_Detail[]>([]);
+  const [editTask, setEditTask] = useState<string|any>('');
+  const fetchTasks = async () => {
+    try {
+      const { data } = await API.get(`/Task`);
+
+      setTasks(data);
+      console.log("task displayed");
+    }
+    catch (error) {
+      console.log(error);
+    }
+  }
+  useEffect(() => {
+    fetchTasks();
+  }, [])
+
+
+  const fetchProjects = async () => {
+    try {
+      const { data } = await API.get(`/Projects`);
+
+      setProjects(data);
+
+
+    }
+    catch (error) {
+      console.log("error in project add", error);
+    }
+  }
+  useEffect(() => {
+    fetchProjects();
+  }, [])
+
+
+  const fetchTeamMember = async () => {
+    try {
+      const { data } = await API.get(`/Teams`);
+      setMembers(data);
+      console.log("team member added")
+    }
+    catch (error) {
+      console.log("team member get error", error);
+    }
+  }
+  useEffect(() => {
+    fetchTeamMember()
+  }, []);
+
+const handleDelete = async (id: string) => {
+    try {
+        await API.post(`/Task/deleteTask/${id}`);
+        console.log("task deleted sucessfuly");
+        fetchTasks();
+    }
+    catch (error) {
+        console.error('Error deleting project:', error);
+    }
+}
+
+  const showModal = () => {
+    setIsModalOpen(true);
+  };
+  const handleOk = () => {
+    setIsModalOpen(false);
+  };
+
+  const handleCancel = () => {
+    setIsModalOpen(false);
+  };
+
+  const onFinish = async (values: any) => {
+    const memberData=members.filter((m=>values.TeamMember.includes(m.Id)));
+     const projectData=projects.filter((p=>values.Project.includes(p.Id)));
+    const backendData={
+      Title:values.Title,
+      Description:values.Description,
+      StartDate:values.StartDate,
+      EndDate:values.EndDate,
+      // TeamMember:memberData,
+      //  Project:projectData,
+      // Status:values.Status
+    }
+
+    try {
+     
+    
+     await API.post(`/Task`, backendData);
+     //await API.post(`/Projects`,values);
+     console.log("task added sucessfuly");
+
+
+
+ //}
+
+
+      setIsModalOpen(false);
+
+      fetchTasks();
+      form.resetFields();
+    }
+    catch (error) {
+      console.log("error", error);
+    }
+
+  }
+
+  const columns = [
+    {
+      title: 'TaskTitle',
+      dataIndex: 'Title',
+      key: 'Title'
+    },
+    {
+      title: 'Description',
+      dataIndex: 'Description',
+      key: 'Description'
+    },
+    {
+      title: 'StartDate',
+      dataIndex: 'StartDate',
+      key: 'StartDate'
+    },
+    {
+      title: 'EndDate',
+      dataIndex: 'EndDate',
+      key: 'EndDate'
+    },
+
+    {
+      title: 'AssignedMember',
+      key: 'TeamMember',
+      render: (record: TaskInterface) =>
+        record.TeamMember.map(m => m.Name)
+
+    },
+
+    {
+      title: 'ProjectAssigned',
+      key: 'Poject',
+      render: (record: TaskInterface) =>
+        record.Project.map(m => m.ProjectName)
+
+    },
+    {
+      title: 'status',
+      dataIndex: 'Status',
+      key: 'Status'
+    },
+    {
+      title: 'Action',
+      key: 'action',
+      render: (record: TaskInterface) => (
+        <Space size="middle">
+    <Button type="primary"  onClick={()=>{
+        //form.setFieldsValue(record);
+        form.setFieldsValue({...record,TeamMember:record.TeamMember.map((m)=>m.Id),Project:record.Project.map((p)=>p.Id)},
+         
+      )
+        setEditTask(record);
+        setIsModalOpen(true)
+    }}>
+        Edit
+    </Button>
+    <Popconfirm title="Are you sure you want to delete this?" onConfirm={() => handleDelete(record.Id)} okText="Yes" cancelText="No">
+        <Button type="primary" danger >Delete</Button>
+    </Popconfirm>
+
+
+</Space>
+      ),
+    },
+
+
+  ]
+  return (
+    <>
+      <Layout style={{ height: '1000vh' }}>
+        <Sider>
+          <Sidebar />
+        </Sider>
+        <Layout>
+          <Header style={{ padding: 12, background: '#FFF' }}>
+
+            <div style={{ background: "#fff", padding: "0 24px", display: "flex", justifyContent: "flex-end", alignItems: "center", height: 50, }}>
+
+              <Button type="primary" onClick={showModal}>
+                <PlusOutlined />  Create Task
+              </Button>
+            </div>
+
+          </Header>
+          <Content>
+            <Table style={{ padding: "24px" }} dataSource={tasks.map((task) => ({ ...task, key: task.Id }))} columns={columns} pagination={{ pageSize: 10 }} bordered />;</Content>
+          <Modal
+            closable={{ 'aria-label': 'Custom Close Button' }}
+            open={isModalOpen}
+            onOk={handleOk}
+            onCancel={handleCancel}
+            footer={null}
+          >
+
+
+            <Form form={form} onFinish={onFinish} layout='vertical'>
+
+              <Form.Item label="TaskTitle" name="Title">
+                <Input placeholder="Enter Task title" />
+              </Form.Item>
+              <Form.Item label="Description" name="Description">
+                <Input placeholder="enter description" />
+              </Form.Item>
+              <Form.Item label="StartDate" name="StartDate">
+                <DatePicker />
+              </Form.Item>
+              <Form.Item label="EndDate" name="EndDate">
+                <DatePicker />
+              </Form.Item>
+              <Form.Item label="Team_Member" name="TeamMember">
+                <Select placeholder="chooose member">
+                  {members.map((member) => (
+                    <Select.Option
+                      key={member.Id}
+
+                      label={member.Name}>
+
+                      {member.Name}
+                    </Select.Option>
+
+                  )
+
+                  )}
+                </Select>
+              </Form.Item>
+              <Form.Item label="Project_Detail" name="Project">
+                <Select  placeholder="chooose project">
+                  {projects.map((project) => (
+                    <Select.Option
+                      key={project.Id}
+
+                      label={project.ProjectName}>
+
+                      {project.ProjectName}
+                    </Select.Option>
+
+                  )
+
+                  )}
+                </Select>
+              </Form.Item>
+              <Form.Item label="Status" name="Status">
+                <Select placeholder="Select a status"
+                  options={[
+                    {
+                      value: 'ToDo',
+                      label: 'ToDo',
+                    },
+                    {
+                      value: 'InProgress',
+                      label: 'InProgress',
+                    },
+                    {
+                      value: 'Done',
+                      label: 'Done',
+                    },
+                    {
+                      value: 'Cancelled',
+                      label: 'Cancelled',
+                    },
+                  ]}
+                  />
+               
+              </Form.Item>
+              <Form.Item>
+                <Button htmlType='submit' type="primary"  >Submit</Button>
+              </Form.Item>
+            </Form>
+          </Modal>
+        </Layout>
+      </Layout>
+    </>
+
+  )
+}
+
+export default TaskComponent
