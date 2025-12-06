@@ -1,0 +1,346 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\rough\\TaskManagerApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|c:\\rough\\taskmanagerapi\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|solutionrelative:controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|c:\\rough\\taskmanagerapi\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|solutionrelative:models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|c:\\rough\\taskmanagerapi\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|solutionrelative:models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|c:\\rough\\taskmanagerapi\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|solutionrelative:services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|c:\\rough\\taskmanagerapi\\services\\teamsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|solutionrelative:services\\teamsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|c:\\rough\\taskmanagerapi\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|solutionrelative:services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|c:\\rough\\taskmanagerapi\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|solutionrelative:controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|c:\\rough\\taskmanagerapi\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|solutionrelative:controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|c:\\rough\\taskmanagerapi\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|solutionrelative:models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|c:\\rough\\taskmanagerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|c:\\rough\\taskmanagerapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|c:\\rough\\taskmanagerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|c:\\rough\\taskmanagerapi\\models\\teamstoredatabasesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|solutionrelative:models\\teamstoredatabasesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|c:\\rough\\taskmanagerapi\\dto\\teamdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|solutionrelative:dto\\teamdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|c:\\rough\\taskmanagerapi\\dto\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|solutionrelative:dto\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|c:\\rough\\taskmanagerapi\\models\\activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|solutionrelative:models\\activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|c:\\rough\\taskmanagerapi\\dto\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|solutionrelative:dto\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|c:\\rough\\taskmanagerapi\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|solutionrelative:dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|c:\\rough\\taskmanagerapi\\models\\teamsqueryparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|solutionrelative:models\\teamsqueryparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|c:\\rough\\taskmanagerapi\\taskmanagerapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{BE9C24B8-085A-4270-8B60-22D0E3CB17AC}|TaskManagerApi.csproj|solutionrelative:taskmanagerapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TeamsService.cs",
+              "DocumentMoniker": "C:\\rough\\TaskManagerApi\\Services\\TeamsService.cs",
+              "RelativeDocumentMoniker": "Services\\TeamsService.cs",
+              "ToolTip": "C:\\rough\\TaskManagerApi\\Services\\TeamsService.cs",
+              "RelativeToolTip": "Services\\TeamsService.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAhwJgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T10:02:53.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\rough\\TaskManagerApi\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "Services\\TaskService.cs",
+              "ToolTip": "C:\\rough\\TaskManagerApi\\Services\\TaskService.cs",
+              "RelativeToolTip": "Services\\TaskService.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAmwIgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T06:34:25.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\rough\\TaskManagerApi\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TaskController.cs",
+              "ToolTip": "C:\\rough\\TaskManagerApi\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "Controllers\\TaskController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAcwFwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T06:36:00.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\rough\\TaskManagerApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\rough\\TaskManagerApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAF0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T07:05:58.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TeamDTO.cs",
+              "DocumentMoniker": "C:\\rough\\TaskManagerApi\\DTO\\TeamDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\TeamDTO.cs",
+              "ToolTip": "C:\\rough\\TaskManagerApi\\DTO\\TeamDTO.cs",
+              "RelativeToolTip": "DTO\\TeamDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T07:01:06.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\rough\\TaskManagerApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\rough\\TaskManagerApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-22T12:42:53.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TeamStoreDatabaseSettings.cs",
+              "DocumentMoniker": "C:\\rough\\TaskManagerApi\\Models\\TeamStoreDatabaseSettings.cs",
+              "RelativeDocumentMoniker": "Models\\TeamStoreDatabaseSettings.cs",
+              "ToolTip": "C:\\rough\\TaskManagerApi\\Models\\TeamStoreDatabaseSettings.cs",
+              "RelativeToolTip": "Models\\TeamStoreDatabaseSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T06:55:03.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TeamsController.cs",
+              "DocumentMoniker": "C:\\rough\\TaskManagerApi\\Controllers\\TeamsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TeamsController.cs",
+              "ToolTip": "C:\\rough\\TaskManagerApi\\Controllers\\TeamsController.cs",
+              "RelativeToolTip": "Controllers\\TeamsController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAA5wDYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T06:35:38.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\rough\\TaskManagerApi\\Models\\TaskItem.cs",
+              "RelativeDocumentMoniker": "Models\\TaskItem.cs",
+              "ToolTip": "C:\\rough\\TaskManagerApi\\Models\\TaskItem.cs",
+              "RelativeToolTip": "Models\\TaskItem.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T06:31:19.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\rough\\TaskManagerApi\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "Models\\Project.cs",
+              "ToolTip": "C:\\rough\\TaskManagerApi\\Models\\Project.cs",
+              "RelativeToolTip": "Models\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T06:30:54.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProjectsController.cs",
+              "DocumentMoniker": "C:\\rough\\TaskManagerApi\\Controllers\\ProjectsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProjectsController.cs",
+              "ToolTip": "C:\\rough\\TaskManagerApi\\Controllers\\ProjectsController.cs",
+              "RelativeToolTip": "Controllers\\ProjectsController.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAuwIQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T06:35:06.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Team.cs",
+              "DocumentMoniker": "C:\\rough\\TaskManagerApi\\Models\\Team.cs",
+              "RelativeDocumentMoniker": "Models\\Team.cs",
+              "ToolTip": "C:\\rough\\TaskManagerApi\\Models\\Team.cs",
+              "RelativeToolTip": "Models\\Team.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T06:29:54.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProjectService.cs",
+              "DocumentMoniker": "C:\\rough\\TaskManagerApi\\Services\\ProjectService.cs",
+              "RelativeDocumentMoniker": "Services\\ProjectService.cs",
+              "ToolTip": "C:\\rough\\TaskManagerApi\\Services\\ProjectService.cs",
+              "RelativeToolTip": "Services\\ProjectService.cs",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAYwJsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T06:33:52.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\rough\\TaskManagerApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\rough\\TaskManagerApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAwwAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T07:48:39.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\rough\\TaskManagerApi\\DTO\\User.cs",
+              "RelativeDocumentMoniker": "DTO\\User.cs",
+              "ToolTip": "C:\\rough\\TaskManagerApi\\DTO\\User.cs",
+              "RelativeToolTip": "DTO\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T13:45:34.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Activity.cs",
+              "DocumentMoniker": "C:\\rough\\TaskManagerApi\\Models\\Activity.cs",
+              "RelativeDocumentMoniker": "Models\\Activity.cs",
+              "ToolTip": "C:\\rough\\TaskManagerApi\\Models\\Activity.cs",
+              "RelativeToolTip": "Models\\Activity.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T07:25:37.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\rough\\TaskManagerApi\\DTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\LoginDTO.cs",
+              "ToolTip": "C:\\rough\\TaskManagerApi\\DTO\\LoginDTO.cs",
+              "RelativeToolTip": "DTO\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T07:06:22.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AuthResponse.cs",
+              "DocumentMoniker": "C:\\rough\\TaskManagerApi\\DTO\\AuthResponse.cs",
+              "RelativeDocumentMoniker": "DTO\\AuthResponse.cs",
+              "ToolTip": "C:\\rough\\TaskManagerApi\\DTO\\AuthResponse.cs",
+              "RelativeToolTip": "DTO\\AuthResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T07:46:35.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TeamsQueryParameter.cs",
+              "DocumentMoniker": "C:\\rough\\TaskManagerApi\\Models\\TeamsQueryParameter.cs",
+              "RelativeDocumentMoniker": "Models\\TeamsQueryParameter.cs",
+              "ToolTip": "C:\\rough\\TaskManagerApi\\Models\\TeamsQueryParameter.cs",
+              "RelativeToolTip": "Models\\TeamsQueryParameter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T13:30:00.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TaskManagerApi.http",
+              "DocumentMoniker": "C:\\rough\\TaskManagerApi\\TaskManagerApi.http",
+              "RelativeDocumentMoniker": "TaskManagerApi.http",
+              "ToolTip": "C:\\rough\\TaskManagerApi\\TaskManagerApi.http",
+              "RelativeToolTip": "TaskManagerApi.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-07-24T12:22:32.736Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
